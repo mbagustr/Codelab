@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMAT MAHASISWA</title>
+  </head>
+  <body>
+    <p>FORMAT MAHASISWA</p>
+    <table>
+      <tr>
+        Nama
+      </tr>
+      <Input type = "text" name = ""id=>
+      <td>NIM <Input type = "text" NIM = ""id=></td>
+      <tr>
+        <td>
+          Tanggal
+          <input type="date" id="tanggal" name="tanggal" required /><br /><br />
+      </tr>
+      <td>Alamat</table><textarea id="alamat" name="alamat" cols="21" rows="5" required></textarea
+      ><br /><br />
+      <input type="submit" value="Simpan" />
+    </form>
+  </body>
+</html>
