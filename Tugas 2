@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabel Mahasiswa</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: gold;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: left;
+      }
+
+      th {
+        background-color: gold;
+        color: black;
+      }
+
+      tr:nth-child(even) {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabel Mahasiswa</h1>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>NIM</th>
+        <th>Alamat</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>M Bagus Triyadi</td>
+        <td>202110370311347</td>
+        <td>Jl. Pandean</td>
+      </tr>
+      <tr></tr>
+    </table>
+  </body>
+</html>
